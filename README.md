@@ -6,12 +6,14 @@ Typically, this type of project needs a database to store the credentials. But, 
 
 First:
 
-``` npm init
+```
+npm init
 ```
 
 Second:
 
-``` npm install express bcrypt body-parser --save
+```
+    npm install express bcrypt body-parser --save
 ```
 
 _Express_ : is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. With the help of express, APIs can be build very easily and quickly.
@@ -22,7 +24,8 @@ _Body-parser_ : is required to handle HTTP POST request in Express.js. It extrac
 
 Response example of register:
 
-```User list [
+```
+User list [
   {
     id: 1704459048095,
     username: 'joão',
